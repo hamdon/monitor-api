@@ -6,7 +6,7 @@
  */
 set_time_limit(0);
 
-include_once 'wechat.php';
+include_once 'WeChat.php';
 
 $apis = require 'api_config.php';
 $hosts = require 'host_config.php';
@@ -48,7 +48,7 @@ foreach ($hosts as $host){
     }
 }
 if($error || $notify){
-       $wx = new wxChat();
+       $wx = new WeChat();
         foreach ($error as $value){
             $wx->send($value['code'].':'.$value['message'].'：'.$value['url']);
         }

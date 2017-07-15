@@ -28,7 +28,7 @@
 
 
 
-**wxchat.php**
+**WeChat.php**
 微信企业号操作类
 
 

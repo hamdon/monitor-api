@@ -5,7 +5,7 @@
  * Time: 14:31
  */
 include 'CurlConnect.php';
-class wxChat{
+class WeChat{
     private $connect = null;
     private $sendMessageUrl='';
     private $agentId = 0;

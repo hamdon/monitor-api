@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84872208-5200-4957-b1a4-14425fa69582" name="Default" comment="修改文字说明" />
+    <list default="true" id="84872208-5200-4957-b1a4-14425fa69582" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitor.php" afterPath="$PROJECT_DIR$/monitor.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wechat.php" afterPath="$PROJECT_DIR$/WeChat.php" />
+    </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +16,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="api_config.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api_config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
               <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="726">
+                <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -48,18 +66,18 @@
       <file leaf-file-name="monitor.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monitor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wechat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechat.php">
+      <file leaf-file-name="WeChat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeChat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="154">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -123,13 +141,14 @@
         <option value="$PROJECT_DIR$/CurlConnect.php" />
         <option value="$PROJECT_DIR$/wechat.php" />
         <option value="$PROJECT_DIR$/run_monitor_api.sh" />
-        <option value="$PROJECT_DIR$/monitor.php" />
         <option value="$PROJECT_DIR$/access_token.log" />
         <option value="$PROJECT_DIR$/api_config.php" />
         <option value="$PROJECT_DIR$/user_config.php" />
         <option value="$PROJECT_DIR$/wx_config.php" />
         <option value="$PROJECT_DIR$/show.php" />
         <option value="$PROJECT_DIR$/host_config.php" />
+        <option value="$PROJECT_DIR$/WeChat.php" />
+        <option value="$PROJECT_DIR$/monitor.php" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -275,7 +294,7 @@
       <workItem from="1500000174812" duration="23092000" />
       <workItem from="1500083609346" duration="7160000" />
       <workItem from="1500096306424" duration="1921000" />
-      <workItem from="1500098804953" duration="1187000" />
+      <workItem from="1500098804953" duration="1746000" />
     </task>
     <task id="LOCAL-00001" summary="修改文字说明">
       <created>1500099637111</created>
@@ -284,11 +303,25 @@
       <option name="project" value="LOCAL" />
       <updated>1500099637111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加图片">
+      <created>1500100108170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500100108170</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改说明">
+      <created>1500100313206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1500100313206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34437000" />
+    <option name="totallyTimeSpent" value="34996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -339,7 +372,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改文字说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改文字说明" />
+    <MESSAGE value="增加图片" />
+    <MESSAGE value="修改说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -372,7 +407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat.php">
+    <entry file="file://$PROJECT_DIR$/WeChat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
@@ -462,7 +497,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat.php">
+    <entry file="file://$PROJECT_DIR$/WeChat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
@@ -569,7 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat.php">
+    <entry file="file://$PROJECT_DIR$/WeChat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
@@ -698,22 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monitor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wechat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user_config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -742,22 +761,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="262">
-            <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api_config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeChat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="726">
+            <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
